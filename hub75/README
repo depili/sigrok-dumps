@@ -21,7 +21,9 @@ Logic analyzer setup
 The logic analyzer used was a DreamSourceLab DSLogic Plus (at 100MHz):
 sigrok-cli -d dreamsourcelab-dslogic --config samplerate=100MHz --samples 1M -o hub75.sr
 
-  Probe       AT25SF041 pin
+The channels were later renamed in pulseview.
+
+  Probe       hub75 signal
   -------------------------
   0           CLK
   1           #OE
