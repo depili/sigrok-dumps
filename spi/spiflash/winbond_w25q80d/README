@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
-Winbond WW25Q80D
+Winbond W25Q80D
 -------------------------------------------------------------------------------
 
-These are example captures of an Winbond WW25Q80DV (8MBit == 1MByte) SPI
+These are example captures of an Winbond W25Q80DV (8MBit == 1MByte) SPI
 flash chip being driven by a Teensy 3.2. The SPI clock is at 500kHz
 
 Details:
@@ -13,7 +13,7 @@ Logic analyzer setup
 
 The logic analyzer used was a DreamSourceLab DSLogic Plus (at 10MHz):
 
-  Probe       WW25Q80DV pin
+  Probe       W25Q80DV pin
   -------------------------
   0           ce
   1           clk
